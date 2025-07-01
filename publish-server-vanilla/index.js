@@ -94,7 +94,7 @@ function auth(req, res) {
 
   let state = 'abc123';
   let client_id = 'Iv1.ab67a7893d5befda';
-  let client_secret = '8a34d7d7ca32c39f47d878d63235ed6c5406cbfb';
+  let client_secret = '';
   let redirect_uri = encodeURIComponent('http://localhost:8081/auth');
 
   // let authURI = `https://github.com/login/oauth/authorize?client_id=Iv1.ab67a7893d5befda&redirect_uri=${encodeURIComponent('http://localhost:8000')}`
